@@ -194,9 +194,7 @@ public function actionStatus()
 		$content = file_get_contents($path);
 
 		preg_match_all($regex, $content, $matches);
-
 		$videos = array();
-
 		foreach ($matches[4] as $key => $value) {
 			$s  = $value.'_v';
 			$videos[$s]['data']   = $matches[1][$key].' '.$matches[2][$key];
