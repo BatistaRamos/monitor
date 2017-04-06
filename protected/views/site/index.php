@@ -9,7 +9,7 @@
 <embed src="<?php echo $video->url;?>" 
 	pluginspage="http://www.videolan.org" width="320" height="250"
 	controller="true" loop="true" autoplay="true"
-	name="<<?php echo $video->nome;?>">
+	name="<?php echo $video->nome;?>">
 <p>Descrição: <?php echo $video->descricao;?></p>
 <p>Contato: <?php echo $video->nome_contato;?></p>
 <p>Email: <?php echo $video->email_contato;?></p>
@@ -28,7 +28,7 @@ function verifyStatus() {
 				$(this).removeClass("unloaded");
 				$(this).addClass("loaded");
 			} else {
-                		$(this).removeClass("loaded");
+                $(this).removeClass("loaded");
 				$(this).addClass("unloaded");
 			}
 		});
