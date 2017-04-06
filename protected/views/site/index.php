@@ -35,7 +35,6 @@ function verifyStatus() {
 	});
 }
 
-
 window.setInterval("verifyStatus()", 3000);
 
 </script>
