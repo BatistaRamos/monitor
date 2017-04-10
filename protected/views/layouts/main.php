@@ -33,7 +33,7 @@
 				array('label'=>'Monitoramento', 'url'=>array('/site/index')),
 				array('label'=>'Gerenciar Vídeos', 'url'=>array('/video')),
 				array('label'=>'Gerenciar Usuários', 'url'=>array('/usuario')),
-				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
+				array('label'=>'Sair ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
 			),
 		)); ?>
 	</div><!-- mainmenu -->
