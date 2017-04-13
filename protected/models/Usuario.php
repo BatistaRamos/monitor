@@ -68,7 +68,7 @@ class Usuario extends CActiveRecord
 			'id' => 'ID',
 			'nome' => 'Nome',
 			'email' => 'Email',
-			'username' => 'Uuário',
+			'username' => 'Usuário',
 			'password' => 'senha',
 			'salt' => 'Salt',
 		);
