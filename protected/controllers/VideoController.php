@@ -60,7 +60,7 @@ class VideoController extends Controller
 public function actionStatus()
     {
 	/*
-	$xml = simplexml_load_file('http://10.124.85.62:8086/serverinfo');
+	$xml = simplexml_load_file('http://192.168.56.101/:8086/serverinfo');
 	$response = array();
 	foreach ($xml->VHost->Application as $value) {
 	response[] = array('name'=>(String)$value->Name, 'status'=>(String)$value->Status);
