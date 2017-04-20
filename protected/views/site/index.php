@@ -10,14 +10,14 @@
 	pluginspage="http://www.videolan.org" width="320" height="250"
 	controller="true" loop="true" autoplay="true"
 	name="<?php echo $video->nome;?>">
-<div id="totalUsers"></div>
+
 <p>Descrição : <?php echo $video->descricao;?></p>
 <p>Contato : <?php echo $video->nome_contato;?></p>
 <p>Email : <?php echo $video->email_contato;?></p>
 <p>Telefone : <?php echo $video->telefone_contato;?></p>
 </div>	
 <?php } ?>
-
+<div id="totalUsers"></div>
 
 <script>
 
