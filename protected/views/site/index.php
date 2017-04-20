@@ -5,12 +5,12 @@
 </style>
 
 <?php foreach($model as $video) { ?>
-<div id="totalUsers"></div>
 <div class="list_videos loaded" id="<?php echo $video->nome;?>_v">
 <embed src="<?php echo $video->url;?>" 
 	pluginspage="http://www.videolan.org" width="320" height="250"
 	controller="true" loop="true" autoplay="true"
 	name="<?php echo $video->nome;?>">
+<div id="totalUsers"></div>
 <p>Descrição : <?php echo $video->descricao;?></p>
 <p>Contato : <?php echo $video->nome_contato;?></p>
 <p>Email : <?php echo $video->email_contato;?></p>
