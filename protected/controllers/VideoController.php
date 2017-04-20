@@ -79,7 +79,7 @@ public function actionTotalUsers()
 	}
 	*/
 	$response = $this->totalUsers();
-	Yii::app()->end(json_encode($response);
+	Yii::app()->end(json_encode($response));
     }
     /**
      * Creates a new model.
