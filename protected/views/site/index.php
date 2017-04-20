@@ -5,6 +5,7 @@
 </style>
 
 <?php foreach($model as $video) { ?>
+<div id="totalUsers"></div>
 <div class="list_videos loaded" id="<?php echo $video->nome;?>_v">
 <embed src="<?php echo $video->url;?>" 
 	pluginspage="http://www.videolan.org" width="320" height="250"
@@ -34,8 +35,12 @@ function verifyStatus() {
 		});
 	});
 }
-
+function verifyUsers() {
+	$.getJSON( "/monitor/index.php?r=video/totalUsers", function( data ) {
+	  	$('#totalUsers').html(data);
+	});
+}
 window.setInterval("verifyStatus()", 3000);
-
+window.setInterval("verifyUsers()", 3000);
 </script>
 

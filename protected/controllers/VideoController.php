@@ -69,7 +69,18 @@ public function actionStatus()
 	$response = $this->statusOnServer();
 	Yii::app()->end(json_encode($response));
     }
-
+public function actionTotalUsers()
+    {
+	/*
+	$xml = simplexml_load_file('http://192.168.56.101/:8086/serverinfo');
+	$response = array();
+	foreach ($xml->VHost->Application as $value) {
+	response[] = array('name'=>(String)$value->Name, 'status'=>(String)$value->Status);
+	}
+	*/
+	$response = $this->totalUsers();
+	Yii::app()->end(json_encode($response);
+    }
     /**
      * Creates a new model.
      * If creation is successful, the browser will be redirected to the 'view' page.
@@ -204,5 +215,12 @@ public function actionStatus()
 		}
 		return $videos;
 	}
+private function totalUsers(){
+		$path = "/var/www/html/monitor/scripts/viewers.txt";
 
+		$content = file_get_contents($path);
+
+		
+		return $content;
+	}
 }
