@@ -17,7 +17,7 @@
 <p>Telefone : <?php echo $video->telefone_contato;?></p>
 </div>	
 <?php } ?>
-<div id="totalUsers"></div>
+<div style="color:#0000FF" id="totalUsers"></div>
 
 <script>
 
