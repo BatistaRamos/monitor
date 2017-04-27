@@ -23,7 +23,7 @@
 <p>Telefone : <?php echo $video->telefone_contato;?></p>
 </div>	
 <?php } ?>
-<div class="list_videos loaded"   id="totalUsers"></div>
+<div class="list_videos unloaded"   id="totalUsers"></div>
 
 <script>
 
