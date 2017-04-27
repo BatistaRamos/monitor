@@ -1,15 +1,11 @@
 <style>
 .unloaded {border: 3px solid red;}
 
-.unloaded1 {border: 3px solid blue;}
+.totalusers {border: 3px solid blue;width:100px;height
+:100px; }
 
 .loaded {border: 3px solid transparent;}
 
-.total {
-	border: 3px solid red;
-    color:#ff0000;
-
-}
 </style>
 
 <?php foreach($model as $video) { ?>
@@ -25,7 +21,7 @@
 <p>Telefone : <?php echo $video->telefone_contato;?></p>
 </div>	
 <?php } ?>
-<div class="list_videos unloaded1"   id="totalUsers"></div>
+<div class="list_videos totalusers"   id="totalUsers"></div>
 
 <script>
 
