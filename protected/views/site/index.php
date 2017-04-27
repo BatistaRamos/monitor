@@ -6,7 +6,7 @@
 .total {
 	border: 3px solid red;
     color:#ff0000;
-	position: absolute;
+	position: relative;
     top: 80px;
     right: 0;
     width: 200px;
