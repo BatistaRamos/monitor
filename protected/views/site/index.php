@@ -6,8 +6,8 @@
 .total {
 	border: 3px solid red;
     color:#ff0000;
-    border-style: solid;
-	position: relative;
+	width: 400px;
+    height: 200px;
 }
 </style>
 
