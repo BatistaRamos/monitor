@@ -7,8 +7,8 @@
 	border: 3px solid red;
     color:#ff0000;
 	position: relative;
-    top: 80px;
-    left: 400px;
+    top: 10px;
+    left: 500px;
     width: 200px;
     height: 100px;
 }
