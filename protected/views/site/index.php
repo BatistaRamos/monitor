@@ -6,11 +6,7 @@
 .total {
 	border: 3px solid red;
     color:#ff0000;
-	position: relative;
-    top: 10px;
-    left: 700px;
-    width: 200px;
-    height: 100px;
+
 }
 </style>
 
@@ -47,7 +43,7 @@ function verifyStatus() {
 }
 function verifyUsers() {
 	$.getJSON( "/monitor/index.php?r=video/totalUsers", function( data ) {
-	  	$('#totalUsers').html("batista");
+	  	$('#totalUsers').html(data);
 	});
 }
 window.setInterval("verifyStatus()", 3000);
