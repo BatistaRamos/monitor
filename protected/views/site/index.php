@@ -6,8 +6,11 @@
 .total {
 	border: 3px solid red;
     color:#ff0000;
-	width: 400px;
-    height: 200px;
+	position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
 }
 </style>
 
