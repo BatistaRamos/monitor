@@ -47,7 +47,7 @@ function verifyStatus() {
 }
 function verifyUsers() {
 	$.getJSON( "/monitor/index.php?r=video/totalUsers", function( data ) {
-	  	$('#totalUsers').html(data);
+	  	$('#totalUsers').html("batista");
 	});
 }
 window.setInterval("verifyStatus()", 3000);
