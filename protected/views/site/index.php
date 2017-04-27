@@ -8,7 +8,7 @@
     color:#ff0000;
 	position: relative;
     top: 10px;
-    left: 500px;
+    left: 700px;
     width: 200px;
     height: 100px;
 }
