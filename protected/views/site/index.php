@@ -2,6 +2,12 @@
 .unloaded {border: 3px solid red;}
 
 .loaded {border: 3px solid transparent;}
+
+.total {
+	border: 3px solid red;
+    color:#ff0000;
+    border-style: solid;
+}
 </style>
 
 <?php foreach($model as $video) { ?>
@@ -17,7 +23,7 @@
 <p>Telefone : <?php echo $video->telefone_contato;?></p>
 </div>	
 <?php } ?>
-<div style="color:#ff0000;border-style: solid;"   id="totalUsers"></div>
+<div class="total"   id="totalUsers"></div>
 
 <script>
 
