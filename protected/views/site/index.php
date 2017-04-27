@@ -2,7 +2,7 @@
 .unloaded {border: 3px solid red;}
 
 .totalusers {border: 3px solid blue;width:100px;height
-:100px;position:fixed; right:0;top:0 }
+:100px}
 
 .loaded {border: 3px solid transparent;}
 
