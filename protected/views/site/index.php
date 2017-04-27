@@ -1,6 +1,8 @@
 <style>
 .unloaded {border: 3px solid red;}
 
+.unloaded1 {border: 3px solid blue;}
+
 .loaded {border: 3px solid transparent;}
 
 .total {
@@ -23,7 +25,7 @@
 <p>Telefone : <?php echo $video->telefone_contato;?></p>
 </div>	
 <?php } ?>
-<div class="list_videos unloaded"   id="totalUsers"></div>
+<div class="list_videos unloaded1"   id="totalUsers"></div>
 
 <script>
 
